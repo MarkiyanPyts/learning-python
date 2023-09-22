@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "learning-python"
+version = "0.1.0"
+description = ""
+authors = ["Markiyan Pyts <markiyan.pyts@osf.digital>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pythonturtle = "^0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
